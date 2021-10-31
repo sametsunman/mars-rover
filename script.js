@@ -52,9 +52,9 @@ function printPosition() {
 
 function move() {
     if (facing == N) {
-        y;
+        y++;
     } else if (facing == E) {
-        x;
+        x++;
     } else if (facing == S) {
         y--;
     } else if (facing == W) {
